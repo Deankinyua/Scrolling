@@ -11,10 +11,12 @@ const rootElement = document.documentElement;
 const container = document.querySelector("#container");
 const output = document.querySelector("#output");
 const paragraph4 = document.querySelector("#elem");
+const scrollheight = document.querySelector("#scrollheight");
 
 container.addEventListener("scroll", (event) => {
   output.textContent = `scrollTop: ${container.scrollTop}`;
   paragraph4.textContent = `Element height: ${container.clientHeight}`;
+  scrollheight.textContent = `scroll height: ${container.scrollHeight}`;
   windowheight = rootElement.clientHeight;
   console.log("windowheight:" + windowheight);
 });
