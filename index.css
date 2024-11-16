@@ -1,8 +1,8 @@
 #container {
   overflow: scroll;
-  height: 600px;
+  /* height: 600px; */
   width: 150px;
-  border: 5px dashed orange;
+  /* border: 5px dashed orange; */
 }
 
 #output {
